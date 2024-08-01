@@ -6,7 +6,7 @@
 		"email": "nicobattmdq@gmail.com",
 		"phone": "+34 617473892",
 		"url": "https://nicobatt.vercel.app",
-		"summary": "I like Javascript, Deno and fast websites. I love working on small pieces of code improving performance or memory problems & checking new versions of node/ecma to understand what new ways to solve problems exist. I try to collaborate with the open source tools that I use. Actually learning rust & next. I live in Barcelona, Spain. I have worked in different environments: from start-ups to multinational companies.",
+		"summary": "I like Javascript, Deno and fast websites. I love working on small pieces of code improving performance or memory problems & checking new versions of node/ecma to understand what new ways to solve problems exist. I try to collaborate with the open source tools that I use. Actually learning rust & next. I have worked in different environments: from start-ups to multinational companies. I live in Barcelona, Spain.",
 		"location": {
 			"address": "",
 			"postalCode": "08820",
@@ -41,7 +41,7 @@
 			"name": "Security Scorecard",
 			"position": "Backend Developer",
 			"url": "https://securityscorecard.com/",
-			"startDate": "2016-06-01",
+			"startDate": "2021-11-01",
 			"endDate": "2022-09-01",
 			"summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
 			"highlights": ["Started the company"]
@@ -162,6 +162,11 @@
 		{
 			"name": "Docker",
 			"level": "Advanced",
+			"keywords": ["Docker", "Deployment"]
+		},
+		{
+			"name": "Terraform",
+			"level": "Medium",
 			"keywords": ["Docker", "Deployment"]
 		}
 	],
