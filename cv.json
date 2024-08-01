@@ -203,14 +203,16 @@
 			"isActive": true,
 			"description": "Historia interactiva con retos de programación para viajar a Marte",
 			"highlights": ["Elige tu propia aventura", "En desarrollo"],
-			"url": "https://www.remove.bg/"
+			"url": "https://www.remove.bg/",
+			"github": ""
 		},
 		{
 			"name": "Bento",
 			"isActive": true,
 			"description": "Historia interactiva con retos de programación para viajar a Marte",
 			"highlights": ["Elige tu propia aventura", "En desarrollo"],
-			"url": "https://www.getbento.info/"
+			"url": "https://www.getbento.info/",
+			"github": ""
 		},
 		{
 			"name": "Norton Reader",
@@ -221,7 +223,8 @@
 				"Multidioma",
 				"JavaScript & TypeScript"
 			],
-			"url": "https://wwnorton.com/reader"
+			"url": "https://wwnorton.com/reader",
+			"github": ""
 		},
 		{
 			"name": "Mural",
@@ -231,14 +234,16 @@
 				"+2000 usuarios activos",
 				"Retos para cualquier lenguaje"
 			],
-			"url": "https://mural.co/"
+			"url": "https://mural.co/",
+			"github": ""
 		},
 		{
 			"name": "Cyber Risk Quantification",
 			"isActive": true,
 			"description": "Playground de código HTML, CSS y JavaScript para compartir",
 			"highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-			"url": "https://securityscorecard.com/platform/cyber-risk-quantification/"
+			"url": "https://securityscorecard.com/platform/cyber-risk-quantification/",
+			"github": ""
 		}
 	]
 }
