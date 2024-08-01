@@ -7,7 +7,7 @@ import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
-import StackOverflow from "@/icons/stackOverflow.astro"
+import Stackoverflow from "@/icons/Stackoverflow.astro"
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
@@ -15,7 +15,7 @@ const { city, region } = location
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
-  StackOverflow
+  Stackoverflow
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
@@ -41,7 +41,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send an email to ${name} at ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call ${name} at ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
