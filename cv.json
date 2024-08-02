@@ -39,8 +39,8 @@
 			"position": "Fullstack Developer",
 			"startDate": "2022-09-01",
 			"endDate": null,
-			"summary": "Fullstack development with node (v18+) on native js + Express & React.js as frontend. Delivery included Stripe, Knex, Mysql, Docker, Redis.",
-			"highlights": ["Stripe, Redis, MySQL, Knex"]
+			"summary": "During my period at Denode as a Fullstack Developer, I played a key role in developing and enhancing innovative applications. My work included building and maintaining complex systems using Node.js and React, which significantly improved user experience and operational efficiency. I contributed to high-impact projects, such as a background removal app and a commercial gaming platform, demonstrating my ability to deliver robust solutions and manage full project lifecycles from conception to deployment.",
+			"highlights": ["First usage of Deno as professional"]
 		},
 		{
 			"name": "Security Scorecard",
@@ -48,31 +48,31 @@
 			"url": "https://securityscorecard.com/",
 			"startDate": "2021-11-01",
 			"endDate": "2022-09-01",
-			"summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-			"highlights": ["Started the company"]
+			"summary": "At SecurityScorecard, I served as a Senior Platform Backend Engineer for 1 year and 5 months. During my tenure, I developed a comprehensive rate limit solution that was implemented organization-wide, effectively tracking the use of various endpoints and functions across different repositories. This solution enabled us to segment access based on user type, enhancing security and efficiency. Additionally, I worked on the Cyber Risk Quantification (CRQ) product, which helps customers understand cyber risk in financial terms.",
+			"highlights": ["Introduced into Terraform"]
 		},
 		{
 			"name": "Mural",
 			"position": "Senior Core Platform Developer",
 			"startDate": "2020-11-01",
 			"endDate": "2021-10-01",
-			"summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-			"highlights": ["Started the company"]
+			"summary": "During my one-year tenure at MURAL, I contributed as both a Core Platform Developer and a Workflows Developer. In the Core Platform team, I focused on enhancing MURAL's extensibility and integrations, making it more capable and integral to the workflow of various teams.",
+			"highlights": ["Meet Kyle Simpson"]
 		},
 		{
 			"name": "Spark Digital",
 			"position": "Senior Software Engineer",
 			"startDate": "2018-08-01",
 			"endDate": "2020-11-01",
-			"summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-			"highlights": ["First node real client"]
+			"summary": "I led backend implementations, using node.js mainly. I co-founded the Ray Initiative, an internal project incubator aimed at fostering employee professional development through collaborative projects.",
+			"highlights": ["First node real client, lead incubator initiative"]
 		},
 		{
 			"name": "Globant",
 			"position": ".Net Developer",
 			"startDate": "2015-02-01",
 			"endDate": "2018-08-01",
-			"summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+			"summary": "Work for several clients such as Deloitte, using .Net technology.",
 			"highlights": ["First big IT company"]
 		}
 	],
@@ -242,7 +242,7 @@
 		{
 			"name": "Remove Background",
 			"isActive": true,
-			"description": "Remove.bg is an app that uses artificial intelligence to automatically remove backgrounds from images in just five seconds with a single click. It is designed for designers, photographers, marketers, and developers, allowing them to create transparent or white backgrounds, or isolate subjects in photos.",
+			"description": "Remove.bg uses artificial intelligence to automatically modify backgrounds or isolate subjects in photos.",
 			"highlights": ["IA", "Stripe", "Fullstack"],
 			"url": "https://www.remove.bg/",
 			"github": ""
@@ -266,7 +266,7 @@
 		{
 			"name": "Cyber Risk Quantification",
 			"isActive": true,
-			"description": "SecurityScorecard’s CRQ capabilities help customers understand the financial impact of a cyber-attack, gain insight into the probability of incidents over time and quantify the reduction in expected losses if issues are resolved.",
+			"description": "SecurityScorecard’s CxRQ capabilities help customers understand the financial impact of a cyber-attack, gain insight into the probability of incidents over time and quantify the reduction in expected losses if issues are resolved.",
 			"highlights": ["Terraform", "Aws", "Typescript"],
 			"url": "https://securityscorecard.com/platform/cyber-risk-quantification/",
 			"github": ""
