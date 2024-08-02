@@ -12,14 +12,14 @@ import { work } from "@cv"
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
-
+          console.log(name, url)
           return (
             <li>
               <article>
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
+                      <a href={url} title={`See ${name}`} target="_blank">
                         {name}
                       </a>
                     </h3>
@@ -43,6 +43,13 @@ import { work } from "@cv"
 
                 <footer>
                   <p>{summary}</p>
+                  {highlights && highlights.length > 0 && (
+                    <ul class="highlights">
+                      {highlights.map((highlight) => (
+                        <li>{highlight}</li>
+                      ))}
+                    </ul>
+                  )}
                 </footer>
               </article>
             </li>
@@ -119,6 +126,18 @@ import { work } from "@cv"
 
   [data-title] {
     position: relative;
+  }
+
+  /* Estilo para los highlights */
+  .highlights {
+    list-style-type: disc;
+    padding-left: 1.5rem; /* Espacio a la izquierda */
+    margin-top: 0.5rem; /* Espacio entre el resumen y la lista de highlights */
+  }
+
+  .highlights li {
+    color: #444; /* Color del texto de los highlights */
+    font-size: 0.9rem; /* Tamaño de fuente para los highlights */
   }
 
   @media (width <= 700px) {
