@@ -130,39 +130,30 @@
 			"keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
 		},
 		{
-			"name": "TypeScript",
-			"level": "Advanced",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Backend",
-				"JavaScript Superset"
-			]
-		},
-		{
 			"name": "Node",
 			"level": "Advanced",
 			"keywords": ["Web Development", "Backend", "JavaScript", "Server Side"]
 		},
 		{
-			"name": "MySQL",
-			"level": "Advanced",
-			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-		},
-		{
-			"name": "Git",
-			"level": "Advanced",
-			"keywords": ["Version Control", "Collaboration", "Source Code"]
-		},
-		{
-			"name": "GitHub",
-			"level": "Advanced",
-			"keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
-		},
-		{
-			"name": "React",
+			"name": "Deno",
 			"level": "Medium",
-			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+			"keywords": ["Web Development", "Backend", "JavaScript", "Server Side"]
+		},
+		{
+			"name": "Aws",
+			"level": "Advanced",
+			"keywords": ["Web Development", "Backend"]
+		},
+		{
+			"name": "Stripe",
+			"level": "Medium",
+			"keywords": [
+				"Web Development",
+				"Payments",
+				"Backend",
+				"JavaScript",
+				"Server Side"
+			]
 		},
 		{
 			"name": "Docker",
@@ -173,6 +164,56 @@
 			"name": "Terraform",
 			"level": "Medium",
 			"keywords": ["Docker", "Deployment"]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Advanced",
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"Backend",
+				"JavaScript Superset"
+			]
+		},
+		{
+			"name": "React",
+			"level": "Medium",
+			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Graphql",
+			"level": "Basic",
+			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Basic",
+			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Redis",
+			"level": "Medium",
+			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+		},
+		{
+			"name": "MySQL",
+			"level": "Advanced",
+			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+		},
+		{
+			"name": "Mongo",
+			"level": "Advanced",
+			"keywords": ["Databases", "NoSQL", "Data Storage", "Backend"]
+		},
+		{
+			"name": "Git",
+			"level": "Advanced",
+			"keywords": ["Version Control", "Collaboration", "Source Code"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Advanced",
+			"keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
 		}
 	],
 	"languages": [
@@ -201,48 +242,41 @@
 		{
 			"name": "Remove Background",
 			"isActive": true,
-			"description": "Historia interactiva con retos de programación para viajar a Marte",
-			"highlights": ["Elige tu propia aventura", "En desarrollo"],
+			"description": "Remove.bg is an app that uses artificial intelligence to automatically remove backgrounds from images in just five seconds with a single click. It is designed for designers, photographers, marketers, and developers, allowing them to create transparent or white backgrounds, or isolate subjects in photos.",
+			"highlights": ["IA", "Stripe", "Fullstack"],
 			"url": "https://www.remove.bg/",
-			"github": ""
-		},
-		{
-			"name": "Bento",
-			"isActive": true,
-			"description": "Historia interactiva con retos de programación para viajar a Marte",
-			"highlights": ["Elige tu propia aventura", "En desarrollo"],
-			"url": "https://www.getbento.info/",
-			"github": ""
-		},
-		{
-			"name": "Norton Reader",
-			"isActive": true,
-			"description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-			"highlights": [
-				"+1 millón de visitas",
-				"Multidioma",
-				"JavaScript & TypeScript"
-			],
-			"url": "https://wwnorton.com/reader",
 			"github": ""
 		},
 		{
 			"name": "Mural",
 			"isActive": true,
-			"description": "Juego interactivo de programación con retos y secretos",
-			"highlights": [
-				"+2000 usuarios activos",
-				"Retos para cualquier lenguaje"
-			],
+			"description": "Mural is a visual collaboration platform designed to enhance teamwork and creativity. It offers virtual whiteboards where teams can brainstorm, plan projects, and visualize ideas together, regardless of their physical location.",
+			"highlights": ["+1M users", "NoSql", "Cucumber", "Backend"],
 			"url": "https://mural.co/",
+			"github": ""
+		},
+		{
+			"name": "Norton Reader",
+			"isActive": true,
+			"description": "Norton provides an interactive reading experience for students, allowing them to take notes, highlight text, and access books offline.",
+			"highlights": ["Nest.js", "Fastify", "Scrapping"],
+			"url": "https://wwnorton.com/reader",
 			"github": ""
 		},
 		{
 			"name": "Cyber Risk Quantification",
 			"isActive": true,
-			"description": "Playground de código HTML, CSS y JavaScript para compartir",
-			"highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+			"description": "SecurityScorecard’s CRQ capabilities help customers understand the financial impact of a cyber-attack, gain insight into the probability of incidents over time and quantify the reduction in expected losses if issues are resolved.",
+			"highlights": ["Terraform", "Aws", "Typescript"],
 			"url": "https://securityscorecard.com/platform/cyber-risk-quantification/",
+			"github": ""
+		},
+		{
+			"name": "Bento",
+			"isActive": true,
+			"description": "Bento is a free data visualization tool designed for education leaders to easily access, explore, and understand national and state-level survey data from teachers and principals.",
+			"highlights": ["Socket.io", "DynamoDb", "Lambda", "SNS"],
+			"url": "https://www.getbento.info/",
 			"github": ""
 		}
 	]
