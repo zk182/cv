@@ -58,7 +58,10 @@
 			"startDate": "2020-11-01",
 			"endDate": "2021-10-01",
 			"summary": "During my one-year tenure at MURAL, I contributed as both a Core Platform Developer and a Workflows Developer. In the Core Platform team, I focused on enhancing MURAL's extensibility and integrations, making it more capable and integral to the workflow of various teams.",
-			"highlights": ["Meet Kyle Simpson :)"]
+			"highlights": [
+				"Learned how to E2E test using Cucumber",
+				"Meet Kyle Simpson :)"
+			]
 		},
 		{
 			"name": "Spark Digital",
@@ -67,7 +70,7 @@
 			"startDate": "2018-08-01",
 			"endDate": "2020-11-01",
 			"summary": "I led backend implementations, using node.js mainly. I co-founded the Ray Initiative, an internal project incubator aimed at fostering employee professional development through collaborative projects.",
-			"highlights": ["First node client, lead incubator initiative"]
+			"highlights": ["First node client", "Lead incubator initiative"]
 		},
 		{
 			"name": "Globant",
