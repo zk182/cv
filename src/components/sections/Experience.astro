@@ -17,12 +17,12 @@ import { work } from "@cv"
               <article>
                 <header>
                   <div>
-                    <h3>
+                    <h2>
                       <a href={url} title={`See ${name}`} target="_blank">
                         {name}
                       </a>
-                    </h3>
-                    <h4>{position}</h4>
+                    </h2>
+                    <h3>{position}</h3>
                   </div>
 
                   <div>
@@ -63,7 +63,7 @@ import { work } from "@cv"
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 4px;
   }
 
   article h3 {
@@ -127,16 +127,25 @@ import { work } from "@cv"
     position: relative;
   }
 
-  /* Estilo para los highlights */
+  footer {
+    margin-top: 8px; /* Reduce el margen superior del footer */
+    margin-bottom: 12px; /* Reduce el margen inferior del footer */
+  }
+
+  footer p {
+    margin-bottom: 4px; /* Reduce el margen inferior del párrafo */
+  }
+
   .highlights {
+    margin-top: 1rem; /* Reduce el margen superior de la lista de highlights */
+    margin-bottom: 3rem;
     list-style-type: disc;
-    padding-left: 1.5rem; /* Espacio a la izquierda */
-    margin-top: 0.5rem; /* Espacio entre el resumen y la lista de highlights */
+    padding-left: 2rem; /* Espacio a la izquierda */
   }
 
   .highlights li {
-    color: #444; /* Color del texto de los highlights */
     font-size: 0.9rem; /* Tamaño de fuente para los highlights */
+    margin-bottom: 2px; /* Reduce el espacio entre los elementos de la lista */
   }
 
   @media (width <= 700px) {
