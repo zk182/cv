@@ -4,7 +4,7 @@
 		"label": "Javascript & Deno Engineer with +10 years of experience",
 		"image": "/me.webp",
 		"email": "nicobattmdq@gmail.com",
-		"phone": "+34 617473892",
+		"phone": "+54 2235398488",
 		"url": "https://nicobatt.vercel.app",
 		"summary": "I like Javascript, Deno and fast websites. I love working on small pieces of code improving performance or memory problems & checking new versions of node/ecma to understand what new ways to solve problems exist, however, what I value most in my career are the human relationships I've built along the way, I firmly believe that social skills are paramount. I have worked in different environments: from start-ups to multinational companies. I try to collaborate with the open source tools that I use. Actually learning Rust & Astro. I live in Barcelona, Spain.",
 		"location": {
@@ -58,10 +58,7 @@
 			"startDate": "2020-11-01",
 			"endDate": "2021-10-01",
 			"summary": "During my one-year tenure at MURAL, I contributed as both a Core Platform Developer and a Workflows Developer. In the Core Platform team, I focused on enhancing MURAL's extensibility and integrations, making it more capable and integral to the workflow of various teams.",
-			"highlights": [
-				"Learned how to E2E test using Cucumber",
-				"Meet Kyle Simpson :)"
-			]
+			"highlights": ["Learned how to E2E test using Cucumber"]
 		},
 		{
 			"name": "Spark Digital",
