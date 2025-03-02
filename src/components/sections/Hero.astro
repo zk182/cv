@@ -9,7 +9,7 @@ import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 import Stackoverflow from "@/icons/Stackoverflow.astro"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, location, profiles, phone, email } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -79,9 +79,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
   </div>
 </Section>
 
