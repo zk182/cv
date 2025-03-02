@@ -2,6 +2,10 @@
 import Section from "../Section.astro"
 
 import { work } from "@cv"
+const months = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+]
 ---
 
 <Section title="Experience">
@@ -9,9 +13,9 @@ import { work } from "@cv"
     {
       work.map(
         ({ name, startDate, endDate, position, summary, url }) => {
-          const startYear = new Date(startDate).getFullYear()
+          const startYear = `${months[new Date(startDate).getMonth()]} ${new Date(startDate).getFullYear()}`;
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Current"
+            endDate != null ? `${months[new Date(endDate).getMonth()]} ${new Date(endDate).getFullYear()}` : "Present"
           return (
             <li>
               <article>
