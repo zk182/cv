@@ -38,7 +38,7 @@
 			"position": "Backend Developer",
 			"startDate": "2025-02-17",
 			"endDate": null,
-			"summary": "Member of transports team, enabling public transportation users from Argentina to pay for trips through MODO app, using interoperable QR system."
+			"summary": "Transports team, which allows public transport users in Argentina to pay for their trips through a single simple & standardized solution using an interoperable QR code system. I was responsible for the design and development of key components of the platform, including the trip flow, used by ~100k users per day, the deny list system, the payment module, the QR code generation logic that enables the trips, and the debt management for unpaid journeys. I also contributed to the overall architecture design to ensure scalability and reliability of the solution. Additionally, I handled production on-call duties, monitoring and alerting through Datadog, and managed Kubernetes pods and deployments to ensure system stability and rapid incident response."
 		},
 		{
 			"name": "Denode",
