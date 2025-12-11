@@ -1,11 +1,11 @@
 {
 	"basics": {
 		"name": "Nicolás Battaglia",
-		"label": "Javascript & Deno Engineer with +10 years of experience",
+		"label": "Javascript Engineer with +10 years of experience",
 		"email": "nicobattmdq@gmail.com",
 		"phone": "+54 2235398488",
 		"url": "https://nicobatt.vercel.app",
-		"summary": "I like Javascript, Deno and fast websites. I love working on small pieces of code improving performance or memory problems. I have worked in different environments: from start-ups to multinational companies. Open source collaborator. Actually learning Rust & Astro. I live in Mar del Plata, Argentina.",
+		"summary": "I like Javascript but lately exploring and learning Go & Rust. I love working on small pieces of code improving performance. I have worked in different environments: from start-ups to multinational companies. I live in Mar del Plata, Argentina.",
 		"location": {
 			"address": "",
 			"postalCode": "08820",
@@ -38,7 +38,7 @@
 			"position": "Backend Developer",
 			"startDate": "2025-02-17",
 			"endDate": null,
-			"summary": "Transports team, which allows public transport users in Argentina to pay for their trips through a single simple & standardized solution using an interoperable QR code system. I was responsible for the design and development of key components of the platform, including the trip flow, used by ~100k users per day, the deny list system, the payment module, the QR code generation logic that enables the trips, and the debt management for unpaid journeys. I also contributed to the overall architecture design to ensure scalability and reliability of the solution. Additionally, I handled production on-call duties, monitoring and alerting through Datadog, and managed Kubernetes pods and deployments to ensure system stability and rapid incident response."
+			"summary": "Transports team, which allows public transport users in Argentina to pay for their trips through a single simple & standardized solution using an interoperable QR code system. I was responsible for the design and development of key components of the platform, including the trip flow, used by ~200k users per day, the deny list system, the payment module, the QR code generation logic that enables the trips, and the debt management for unpaid journeys. I also contributed to the overall architecture design to ensure scalability and reliability of the solution. Additionally, I handled production on-call duties, monitoring and alerting through Datadog, and managed Kubernetes pods and deployments to ensure system stability and rapid incident response."
 		},
 		{
 			"name": "Denode",
